@@ -44,3 +44,54 @@ font-size: 30px;
 form input.equal{
   width: 125px;
 }
+.nav-link{
+  display: flex;
+  font-size: 20px;
+  text-decoration: none;
+ justify-content: space-around;
+ }
+ .container1{
+width: 100%;
+  height: 100vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(230, 227, 224);
+ }
+
+ form .display1 input{
+ 
+ text-align: right;
+flex: 1;
+background-color: rgb(118, 143, 197);
+font-size: 30px;
+
+
+ }
+ form .display1{
+display: flex;
+  justify-content: flex-end;
+  margin: 5px 0px 15px 0px;
+ }
+ .add{
+padding: 20px;
+border-radius: 10px;
+background-color: rgb(225, 237, 237);
+ }
+ form input.equal1{
+  
+  background-color: rgb(93, 93, 158);
+ }
+
+ form .plus{
+  color: brown;
+ font-size: 20px;
+ }
+ .clear{
+  width: 200px;
+text-align: center;
+background-color: rgb(206, 70, 70);
+color: black
+
+}
