@@ -49,6 +49,10 @@ function Calculator(){
        
        </div>
       </div>
+      <p>In the Calculator we use <b style= {{color: "blue"}}> slice</b> for delete 1 charc from last eg: .slice(0,-1)</p>
+      <p>For the = sign we use <b style= {{color: "blue"}}>(eval()) </b>
+        In React it works inside event handler or logic. It also works in JS but in different way. I have to look.
+      </p>
         </div>
     )
 }

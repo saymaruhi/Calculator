@@ -10,7 +10,8 @@ function App(){
 
   return(
     <div>
-    
+    <h4>Main Page or App.jsx</h4>
+    <p>In this project I use Routes for 2 pages</p>
     <ul>
       <li className='nav-link'>
         <NavLink to={"/"}>Home</NavLink>

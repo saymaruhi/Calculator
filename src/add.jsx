@@ -2,10 +2,17 @@ import { useState } from "react";
 
 function Add() {
 const[value,setValue]= useState("")
-const clearValue =()=>{
-setValue("")
 
+
+
+
+const handleClick= (e)=> {
+   
+    setValue(value + e.target.value)
 }
+
+
+
   return (
    <div>
    <div className="container1">
@@ -15,13 +22,13 @@ setValue("")
           <input type="text" value={value}/>
         </div>
         <div>
-            <input type="button" value= "2" onClick={(e=>setValue(value + e.target.value))}  />
-             <input type="button" value= "+"onClick={(e=>setValue(value + e.target.value))} className="plus"/>
-              <input type="button" value= "4" onClick={(e=>setValue( value + e.target.value))}/>
+            <input type="button" value= "2"  onClick={handleClick}  />
+             <input type="button" value= "+"onClick={handleClick} className="plus"/>
+              <input type="button" value= "4" onClick={handleClick}/>
                <input type="button" value="="  onClick={(e=>setValue(eval(value)))}className="equal1"/>
         </div>
         <div>
-            <input type="button" value="Clear Value" onClick={clearValue} className="clear"/>
+            <input type="button" value="Clear Value" onClick={()=>setValue("")} className="clear"/>
         </div>
        
        
@@ -29,8 +36,8 @@ setValue("")
 
     </form>
     </div>
-
    </div>
+   Q1.  How to make button disable once clicked
     </div>
   );
 }
