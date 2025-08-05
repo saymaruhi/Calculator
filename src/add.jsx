@@ -15,6 +15,7 @@ const handleClick= (e)=> {
 
   return (
    <div>
+     Q1.  How to make button disable once clicked
    <div className="container1">
    <div className="add">
     <form action="">
@@ -37,7 +38,7 @@ const handleClick= (e)=> {
     </form>
     </div>
    </div>
-   Q1.  How to make button disable once clicked
+  
     </div>
   );
 }
